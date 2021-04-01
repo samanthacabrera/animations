@@ -12,7 +12,7 @@ function App() {
     enter: item => (next) => (
       next({ x: -100, y: item.y, opacity: 1, delay: item.delay})
     ),
-    leave: { x: 100, y: 0, opacity: 1}
+    leave: { x: 0, y: 0, opacity: 1}
   });
 
   return (
