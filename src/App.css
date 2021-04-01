@@ -6,7 +6,7 @@
 
 .App {
   height: 100vh;
-  background-color: #b9c0da;
+  background-color: #f39c91;
 }
 
 h1 {
@@ -33,4 +33,18 @@ button:hover {
 
 button:focus {
   outline: 0;
+}
+
+.Container {
+  margin-bottom: 10%;
+}
+
+.Item {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 100%;
+  position: absolute;
+  top: 40%;
+  left: 80%;
 }
